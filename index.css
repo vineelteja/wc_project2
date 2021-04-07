@@ -1,0 +1,131 @@
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: solid red; */
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+.logo-div p {
+  font-weight: 200;
+}
+
+.nav-div {
+  background-color: rgb(7, 167, 222);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul,
+nav li,
+li {
+  display: inline;
+}
+
+nav li {
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  color: #4d4d4d;
+}
+
+.subhead {
+  color: #242424;
+  font-weight: 200;
+}
+
+.search-form {
+  background-color: #00a8de;
+  border-radius: 8px 8px;
+}
+
+.search-form input {
+  padding-right: 2.5rem;
+  background-color: #fff;
+}
+
+.span-div {
+  margin-left: 50pc;
+  text-align: right;
+  align-content: right;
+}
+
+.span-div span {
+  background-color: lightskyblue;
+  border-radius: 50%;
+}
+
+.copy-right {
+  margin: 0px 40px;
+}
+
+.description {
+  margin: 0px 20px;
+  padding: 20px;
+}
+
+footer {
+  background-color: lightgreen;
+}
+
+.span-div img {
+  background-color: honeydew;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+ul {
+  padding: 0px;
+}
+
+input {
+  height: 30px;
+  border-radius: 8px 8px;
+}
+
+legend {
+  margin-bottom: 15px;
+}
+input[type="text"] {
+  padding: 5px;
+  width: 200px;
+}
+
+select {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+form select {
+  width: 100px;
+}
+
+input[type="submit"] {
+  padding: 10px 30px 25px 30px;
+  background-color: royalblue;
+  border: none;
+  color: white;
+  margin-left: 30px;
+}
+
+form {
+  margin-bottom: 10px;
+  width: 50%;
+  border: none;
+  color: white;
+}
+
+fieldset {
+  border-style: none;
+}
+
+.main-container{
+  min-height: 500px
+}
+
+

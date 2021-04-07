@@ -1,0 +1,31 @@
+fieldset {
+    border-color: greenyellow;
+    border-style: solid;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  input[type="radio"],
+  select {
+    margin-bottom: 15px;
+  }
+  
+  form select {
+    width: 200px;
+    text-indent: 64px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 30px;
+    background-color: royalblue;
+    border: none;
+    margin-left: 320px;
+  }
+form {
+    color: black;
+}  

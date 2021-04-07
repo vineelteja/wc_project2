@@ -1,0 +1,24 @@
+table caption {
+    padding: 10px;
+    background-color: brown;
+    color: white;
+  }
+  
+  tr th {
+    padding: 10px;
+    background-color: lightblue;
+  }
+  
+  tr th:first-child {
+    background-color: mediumslateblue;
+  }
+  
+  tr td {
+    padding: 10px;
+    background-color: palegreen;
+  }
+  
+  tr td:first-child {
+    background-color: lightblue;
+  }
+  

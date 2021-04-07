@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact us</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <main>
+      <!-- navigation  -->
+      <nav>
+        <!-- logo -->
+
+        <div class="logo-div">
+          <img
+            src="images/adoptapetlogo2017.svg"
+            alt="pet adoptionlogo"
+            width="300"
+          />
+          <p>North America's Largest Non-Profit Pet Adoption Website</p>
+        </div>
+
+        <!-- nav buttons -->
+        <div class="nav-div">
+          <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="petgallery.html">Pet Gallery</a></li>
+            <li>Rehome a Pet</li>
+            <li>How It Works</li>
+            <li>Adoption Info</li>
+            <li>Pet Care & Health</li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1>Contact Us</h1>
+
+      <img src="images/contact.jpg" width="500" alt="Happy dog image" />
+
+      <h1>First Things First</h1>
+      <p>
+        If you have a question about Adopt-a-Pet.com or a pet ad you see on the
+        site, you may find the answer you're looking for in the list of
+        "Frequently Asked Questions" below. If you have any other questions or
+        feedback, feel free to contact us via email, telephone or "snail" mail.
+        All our contact information is listed below. While we would love to help
+        everybody personally, our small staff cannot possibly respond to the
+        large volume of emails and phone calls we receive on a daily basis. So
+        before you attempt to contact us, please check the "Frequently Asked
+        Questions" listed below to see they provide the answers you need. Thank
+        you!
+      </p>
+
+      <form action="/signup" method="POST">
+        <fieldset>
+          <legend>Contact Form</legend>
+          <label>Name</label><br />
+          <input type="text" name="name" placeholder="John Doe" /><br />
+          <label>Email</label><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="emailID@server.com"
+          /><br />
+          <label>Phone</label><br />
+          <input type="text" name="phone" placeholder="xxx-xxx-xxxx" /><br />
+          <label>How should we contact you</label><br />
+          <input type="radio" name="gender" value="email" checked /> Email
+          <input type="radio" name="gender" value="phone" /> Phone
+          <br /><label>Which cliff are you inquiring</label>
+          <select>
+            <option>West cliff</option>
+            <option>North cliff</option>
+          </select>
+          <br />How did you hear about us: <br />
+          <textarea name="" id="" cols="50" rows="10"></textarea><br />
+          <input type="submit" value="Search" />
+        </fieldset>
+      </form>
+      <!-- <form action="/signup" method="POST">
+        <fieldset>
+          <legend>User Personal information</legend>
+          <label>Enter your full name</label><br />
+          <input type="text" name="name" /><br />
+          <label>Enter your email</label><br />
+          <input type="email" name="email" /><br />
+          <label>Enter your phone</label><br />
+          <input type="text" name="phone" /><br />
+          <label>select your gender of the pet</label><br />
+          <input type="radio" name="gender" value="male" /> Male
+          <input type="radio" name="gender" value="female" /> Female
+          <br /><label>Select the pets</label><br />
+          <select>
+            <option>Dog</option>
+            <option>Pet</option>
+          </select>
+          <br />Tell us if you have any problem today: <br />
+          <textarea name="" id="" cols="30" rows="5"></textarea><br />
+          <input type="submit" value="submit" />
+        </fieldset>
+      </form> -->
+    </main>
+
+    <footer>
+      <p class="copy-right">
+        &copy; Copyright 2020 :: GreatCliffs.com
+        <span class="span-div">
+          <img src="images/facebook.png" alt="" />
+          <img src="images/insta.png" alt="" />
+          <img src="images/twitter.png" alt="" />
+        </span>
+      </p>
+      <p class="description">
+        This website is designed and created solely for educational purposes
+        only at Westcliff University. All contents are not intended for any
+        commercial gain or use.
+      </p>
+    </footer>
+  </body>
+</html>

@@ -2,11 +2,79 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weekend Assignment - Pet Adoption</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <main>
+      <!-- navigation  -->
+      <nav>
+        <!-- logo -->
+
+        <div class="logo-div">
+          <img
+            src="images/adoptapetlogo2017.svg"
+            alt="pet adoptionlogo"
+            width="300"
+          />
+          <p>North America's Largest Non-Profit Pet Adoption Website</p>
+        </div>
+
+        <!-- nav buttons -->
+        <div class="nav-div">
+          <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="petgallery.html">Pet Gallery</a></li>
+            <li>Rehome a Pet</li>
+            <li>How It Works</li>
+            <li>Adoption Info</li>
+            <li>Pet Care & Health</li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class='main-container'>
+        <h1>Adopt the Perfect Pet</h1>
+        <p class="subhead">from more than 17,000 animal shelters & rescues</p>
+
+        <!-- search based on location form -->
+        <div class="search-form">
+          <form action="">
+            <fieldset>
+              <legend>Search pets based on location</legend>
+              <label>Enter your city you live in</label>
+              <input type="text" name="city" placeholder="location" /><br />
+              <br /><label>Select the pets</label>
+              <select>
+                <option>Dog</option>
+                <option>Pet</option>
+              </select>
+              <br />
+              <input type="submit" value="Search" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+        
+    </main>
+
+    <footer>
+      <p class="copy-right">
+        &copy; Copyright 2020 :: GreatCliffs.com
+        <span class="span-div">
+          <img src="images/facebook.png" alt="" />
+          <img src="images/insta.png" alt="" />
+          <img src="images/twitter.png" alt="" />
+        </span>
+      </p>
+      <p class="description">
+        This website is designed and created solely for educational purposes
+        only at Westcliff University. All contents are not intended for any
+        commercial gain or use.
+      </p>
+    </footer>
   </body>
 </html>
